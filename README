@@ -1,3 +1,5 @@
-I've created a virtualbox VM along with some documentation that can be found on TU Berlin's cloud [1].
+The attacks presented in the dissertation and the EuroSP'17 paper can be
+reproduced using the virtualbox Vm available online [1]. The scripts and
+data for the evaluation is in the repo.
 
 [1] https://tubcloud.tu-berlin.de/s/u5sP08g9YlfKFP4
