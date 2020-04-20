@@ -1,0 +1,9 @@
+#!/bin/bash
+rm /usr/local/var/log/openvswitch/ovs-vswitchd.log
+/usr/local/share/openvswitch/scripts/ovs-ctl --no-ovsdb-server --system-id=random restart
+ovs-vsctl add-br s1
+ovs-vsctl set BRIDGE s1 other_config:datapath-id="0000000000000003"
+ovs-vsctl set-controller s1 tcp:10.0.0.2:6633
+sleep 1
+ovs-vsctl del-controller s1
+ovs-vsctl del-br s1
