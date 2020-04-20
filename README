@@ -2,4 +2,10 @@ The attacks presented in the dissertation and the EuroSP'17 paper can be
 reproduced using the virtualbox Vm available online [1]. The scripts and
 data for the evaluation is in the repo.
 
+The OpenFlow covert channel was jointly done with Robert Krösche. With
+his permission, I have uploaded the code that he has authored as well as
+code that was developed by me to analyze and visualize the data. Robert's
+version of the code can be found on bitbucket [2].
+
 [1] https://tubcloud.tu-berlin.de/s/u5sP08g9YlfKFP4
+[2] https://bitbucket.org/rkroesche/sdn-covert-channel/src/master/
